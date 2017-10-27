@@ -1,3 +1,21 @@
 /*
  * Estilos de tu proyecto
  */
+ header {
+   outline: 1px solid purple;
+ }
+ h1 {
+   outline: 1px solid red;
+   display: inline-block;
+ }
+ .menu-2 {
+   outline: 1px solid black;
+   display: inline-block;
+   margin-left: 650px;
+ }
+ hr {
+   display: inline-block;
+   height: 5px;
+   width: 80px;
+   background: white;
+ }5
