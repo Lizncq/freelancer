@@ -14,6 +14,36 @@
    z-index: 1000;
    min-width: 570px;
  }
+ /*estrella y lineas blancas*/
+ #star-1::before {
+   content: " ";
+   display: inline-block;
+   background: #fff;
+   width: 80px;
+   height: 5px;
+ }
+ #star-1::after {
+   content: " ";
+   display: inline-block;
+   background: #fff;
+   width: 80px;
+   height: 5px;
+ }
+ /*estrellas y lineas negras*/
+ #star-2::before {
+   content: " ";
+   display: inline-block;
+   background: #000;
+   width: 80px;
+   height: 5px;
+ }
+ #star-2::after {
+   content: " ";
+   display: inline-block;
+   background: #000;
+   width: 80px;
+   height: 5px;
+ }
  .container {
    width: 100%;
    padding-right: 15px;
@@ -42,9 +72,11 @@
  text-align: center;
  }
  #portfolio {
-   outline: 1px solid red;
+   height: 683px;
+   padding-top: 100px;
+   padding-bottom: 100px;
  }
- p {
+ .title-1 {
    margin: 0px;
    font-family: 'Montserrat', sans-serif;
    text-align: center;
@@ -53,9 +85,9 @@
    margin-top: 80px;
  }
  hr{
-  background: #fff;
-  width: 250px;
-  height: 4px;
+  background: gray;
+  width: 720px;
+  opacity: 0.2;
  }
  .menu {
    display: inline-block;
@@ -88,14 +120,87 @@
    color: #fff;
  }
  .images {
-   width: 300px;
-   height: 300px;
+   width: 350px;
+   height: 243px;
    display: inline-block;
  }
-.container2 {
-  outline: 1px solid blue;
-  position: absolute;
+.container-2 {
+  width: 1110px;
+  height: 683px;
   margin-left: 100px;
   margin-right: 100px;
-  margin-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+#about {
+  height: 400px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #18bc9c;
+}
+.container-3 {
+  position: relative;
+  text-align: center;
+  height: 378px;
+  font-family: 'Lato', sans-serif;
+}
+.title-2 {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+}
+.paragraph {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  width: 350px;
+  height: 40px;
+  text-align: justify;
+  margin-left: 15px;
+}
+.button-1 {
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: inherit;
+  color: #fff;
+}
+.container-4 {
+  text-align: center;
+}
+input {
+  width: 730px;
+  height: 36px;
+  border-style: none;
+}
+#contact {
+  height: 737px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+footer {
+  background: #2c3e50;
+  text-align: center;
+  height: 300px;
+}
+button {
+  width: 40px;
+  height: 20px;
+  margin-left: 100px;
+  color: #000;
+}
+#star-1 {
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+
+}
+#star-2 {
+  color: #000;
+  text-align: center;
+  font-size: 25px;
 }
