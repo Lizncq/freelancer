@@ -188,10 +188,14 @@ footer {
   height: 300px;
 }
 button {
-  width: 40px;
-  height: 20px;
+  width: 50px;
+  height: 30px;
   margin-left: 100px;
-  color: #000;
+  color: #fff;
+  background: #18bc9c;
+  border-radius: 5px;
+  font-weight: 700;
+  border-style: none;
 }
 #star-1 {
   color: #fff;
